@@ -8,6 +8,7 @@ html, body{
     font-size: 100%;
 	background:	#fff;
 	font-family: 'Montserrat', sans-serif !important;
+	font-color:#ffffff;
 }
 p{
 	margin:0;
@@ -67,13 +68,13 @@ button.navig {
 }
 .banner-info-left{
 	width: 40%;
-    float: left;
+    float: none;
     padding: 2em;
     background: rgba(101, 118, 125, 0.77);
 }
 .banner-info h1{
-	font-size:2em;
-	color:#fff;
+	font-size:8em;
+	color:#003153;
 	margin:0 0 .5em;
 	text-align:center;
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -96,7 +97,7 @@ button.navig {
 	resize:none;
 }
 .banner-info input[type="submit"]{
-	background:#00f482;
+	background:#003153;
 	font-size:16px;
 	width:100%;
 	padding:13px 0;
@@ -240,7 +241,7 @@ p.fugiat{
 /*-- //banner-bottom --*/
 /*-- services --*/
 .services{
-	background:url(../images/2.png) no-repeat 0px 0px;
+/*	background:url(../images/2.png) no-repeat 0px 0px; */
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -281,12 +282,12 @@ p.fugiat{
 	text-transform:capitalize;
 	font-size:1.5em;
 	margin:1em 0;
-	color:#fff;
+	color:#000;
 	font-family: 'Montserrat Alternates', sans-serif;
 }
 .service-grid p{
 	font-size:14px;
-	color:#fff;
+	color:#000;
 	margin:0 0 2em;
 	line-height:1.8em;
 }
