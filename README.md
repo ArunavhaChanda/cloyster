@@ -1,6 +1,4 @@
-# cloyster
-
-CubConnect
+# CubConnect
 
 Developers:
 
