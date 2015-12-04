@@ -2,6 +2,6 @@
 Connects clubs to students
 
 ##Developers:
--Arunavha Chanda
--Shalva Kohen
--Ivy Chen
+- Arunavha Chanda
+- Shalva Kohen
+- Ivy Chen
