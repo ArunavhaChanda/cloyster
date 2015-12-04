@@ -50,6 +50,7 @@ body a:hover{
 .main-in{
 	float:right;
 }
+
 button.navig {
     width: 50px;
     height: 50px;
@@ -58,11 +59,61 @@ button.navig {
     outline: none;
     border: 0;
     position: fixed;
-    right: 16%;
-    top: 3.8%;
+    right: 10%;
+    top: 5%;
     z-index: 9;
 	margin: 2em 0 0;
 }
+
+.nav-wrap { overflow: hidden; margin: 0 0 0 200px; position: relative; left: 0; right: 50px; z-index: 2; }
+@media only screen and (min-width: 768px) { .nav-wrap { left: auto; } }
+
+
+
+
+
+#nav { float: right; margin-top: 20px; position: relative; right: -350px; text-align: right; -webkit-transition: right 0.5s ease-in-out; -moz-transition: right 0.5s ease-in-out; transition: right 0.5s ease-in-out; }
+@media only screen and (min-width: 768px) { #nav { float: right; margin-top: 58px; } }
+#nav.dark li a { color: #404040; }
+#nav.show { right: 0; }
+#nav li { float: none; margin-right: 0; }
+@media only screen and (min-width: 768px) { #nav li { float: left; margin-right: 2em; } }
+#nav li:last-child { margin-right: 0; }
+#nav li a { color: #404040; font-family: 'Apercu', Helvetica, Arial, sans-serif; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.6em; }
+.nav-wrap { overflow: hidden; position: relative; left: 0; z-index: 2; }
+@media only screen and (min-width: 768px) { .nav-wrap { left: auto; } }
+
+
+
+
+
+
+
+
+.menu {
+    width: 31px;
+    height: 28px;
+    text-indent: -9999px;
+    background: url("../images/menu.svg") center center no-repeat;
+    float: right;
+    margin-top: 30px;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    -webkit-transition: background-position 0.3s ease-in-out;
+    -moz-transition: background-position 0.3s ease-in-out;
+    -o-transition: background-position 0.3s ease-in-out;
+    transition: background-position 0.3s ease-in-out;
+}
+element.style {
+    display: none;
+}
+.nav .navig.hover {
+    background-position: 31px center;
+    background-position-x: 31px;
+    background-position-y: 50%;
+}
+
 .banner-info{
 	margin:5em 0 0;
 }
@@ -959,7 +1010,7 @@ ul.wmuSliderPagination {
 		-ms-background-size: cover;
 		min-height: 675px;
 	}
-	button.navig {
+	.nav .navig {
 		right: 4%;
 	}
 	p.fugiat {
@@ -1304,7 +1355,7 @@ ul.wmuSliderPagination {
 	.header {
 		margin: 1em 0 0;
 	}
-	button.navig {
+	.nav .navig {
 		margin: 1em 0 0;
 	}
 	.banner {
@@ -1419,7 +1470,7 @@ ul.wmuSliderPagination {
 	.banner-left a {
 		font-size: 1.7em;
 	}
-	button.navig {
+	.nav .navig {
 		background: url(../images/menu.png) no-repeat;
 		background-size: 80%;
 		margin: 0.8em 0 0;

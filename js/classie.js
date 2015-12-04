@@ -10,6 +10,13 @@
 
 /*jshint browser: true, strict: true, undef: true */
 
+  // Menu
+  $(".navig").click(function() {
+    $("#nav").addClass("show").delay(300);
+    $(this).delay(0).addClass("hover");
+    $(this).delay(0).fadeOut("fast");
+  });
+
 ( function( window ) {
 
 'use strict';
